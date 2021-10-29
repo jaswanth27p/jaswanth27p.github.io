@@ -186,6 +186,8 @@ section br + p{
 
 }
 br+h3{
+    position: relative;
+    left: 5%;
     margin-bottom: 0;
 
     
