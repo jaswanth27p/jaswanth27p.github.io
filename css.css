@@ -1,0 +1,194 @@
+body{
+    margin : 0px 0px 0px 0px;
+}
+
+/* 
+------------------------------------------------------------------
+nav bar
+----------------------------------------------------------------- */
+ul{
+    display: inline-block;
+    list-style-type: none;
+    margin : 0px 0px 0px 0px;
+}
+ul li{
+    margin : 20px;
+}
+nav {
+    
+    
+    background-color: #000;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li.selected a, nav ul li.hover a:hover{
+    color: rgb(52, 120, 245);
+}
+
+/* 
+------------------------------------------------------------------
+footer
+----------------------------------------------------------------- */
+footer p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer ul{
+    display: table;
+    margin: 0 auto;
+    
+    
+
+
+}
+footer ul li{
+    
+    
+    list-style: none;
+    display: inline-block;
+    margin: 0px 7px;
+    
+}
+footer ul li a{
+    color:#000;
+    text-decoration: none;
+    
+}
+
+
+
+
+/* ------------------------------------------------------------------
+home page
+----------------------------------------------------------------- */
+
+h1,h4,h2{
+    margin-left: 16px;
+}
+h2+p,h2+p+p ,h1 + p, h4+p{
+    margin-left: 50px;
+}
+h4{
+    margin-bottom: 0px;
+}
+h4+p{
+    margin-top: 0px;
+    color:red;
+}
+ul{
+    padding:0;
+}
+ul div{
+    margin:0px 0px 0px 0px;
+    float:left;
+}
+ul li img{
+    
+    border-radius: 10%;
+    max-width:46% ;
+    margin: 1%;
+    float: left;
+    
+} 
+/* ------------------------------------------------------------------
+about page
+----------------------------------------------------------------- */
+
+section div#about-text {
+    width: 40%;
+    float: left;
+    margin:5%;
+    
+}
+footer{
+    position: relative;
+    top:30px;
+    clear: both;
+}
+section div#pic img{
+    height:211.4px ;
+    width : auto;
+    position: relative;
+    left:30px;
+    top:170px;
+    border-radius: 100%;
+}
+section div#about-text p{
+    position: relative;
+    right: 20px;
+}
+
+/* ------------------------------------------------------------------
+contact page
+----------------------------------------------------------------- */
+section ul#list1,section ul#list2{
+    position :relative;
+    left:10%;
+}
+section ul#list1 li a ,section ul#list2 li a{
+    text-decoration: none;
+    color:rgb(52, 120, 245);
+}
+
+section br + p{
+    position: relative;
+    top :25px;
+    left: 20px;
+}
+#call{
+    background-image: url(https://www.pngfind.com/pngs/m/150-1504296_png-file-svg-call-icon-png-transparent-png.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
+#mail{
+    background-image: url(https://toppng.com/uploads/preview/icon-mail-png-transparent-background-mail-logo-11562851894ksatrtd2da.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
+#fb{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
+#twitter{
+    background-image: url(https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
+#yt{
+    background-image: url(https://www.freeiconspng.com/thumbs/youtube-logo-png/hd-youtube-logo-png-transparent-background-20.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
+#snap{
+    background-image: url(https://www.freepnglogos.com/uploads/snapchat-logo-png-0.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
+#whatsapp{
+    background-image: url(http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
+#fb a,#snap a,#twitter a,#yt a,#whatsapp a{
+    position: relative;
+    left: 25%;
+}
+#call a, #mail a{
+    position: relative;
+    left: 15%;
+
+}
+br+h3{
+    margin-bottom: 0;
+
+    
+}
+
+
